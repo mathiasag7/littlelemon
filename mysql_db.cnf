@@ -1,0 +1,8 @@
+# my.cnf
+[client]
+'NAME': 'menu_items'
+'HOST' : '127.0.0.1'
+'PORT' : '3306'
+'USER': 'ace'
+'PASSWORD': 'portgas'
+default-character-set = utf8
