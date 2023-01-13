@@ -10,5 +10,5 @@ class MenuViewTest(TestCase):
         
     def test_getall(self):
         items = serialize('json', Menu.objects.all())
-        response = self.client.get('restaurant/menu/items/')
+        response = self.client.get('/restaurant/menu/items/')
         self.assertEqual(items, response)
